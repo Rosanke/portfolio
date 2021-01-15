@@ -18,7 +18,7 @@
           <li>About</li>
           <li>Projects</li>
           <li>Skills</li>
-          <li>Contact</li>
+          <li><a href="./contact.html">Contact</a></li>
       </ul>
     </nav>
 </div>
@@ -42,29 +42,31 @@
  </section>
  
  <!-- Projects -->
- <section>
+ <section class="projects">
     <h2>Projects</h2>
-    <div>
-        <h3>Websites</h3>
-        <img src="./assets/images/Testbild-540-260.png" alt="">
-        <p>Websites build with WordPress, fx Wortbuero</p>
-    </div>
-    <div>
-        <h3>Translations</h3>
-        <img src="./assets/images/Testbild-540-260.png" alt="">
-        <p>Books and stories I did translate form danish to german</p>
-    </div>
-    <div>
-        <h3>My Blog</h3>
-        <img src="./assets/images/Testbild-540-260.png" alt="">
-        <p>My WordPress-Blog, where I write about scandinavian literature</p>
-    </div>   
+    <div class="grid-container">
+        <div id="websites">
+            <h3>Websites</h3>
+            <img class="project-img" src="./assets/images/Testbild-540-260.png" alt="">
+            <p>Websites build with WordPress, fx Wortbuero</p>
+        </div>
+        <div id="translations">
+            <h3>Translations</h3>
+            <img class="project-img" src="./assets/images/Testbild-540-260.png" alt="">
+            <p>Books and stories I did translate form danish to german</p>
+        </div>
+        <div id="my-blog">
+            <h3>My Blog</h3>
+            <img class="project-img"src="./assets/images/Testbild-540-260.png" alt="">
+            <p>My WordPress-Blog, where I write about scandinavian literature</p>
+        </div> 
+    </div>  
  </section>
 
  <!-- Skills -->
- <section>
+ <section class="skills">
      <h2>Skills</h2>
-     <div>
+     <div class="skill-items">
         <i class="fab fa-wordpress-simple"></i>
         <i class="fab fa-typo3"></i>
         <i class="fab fa-html5"></i>

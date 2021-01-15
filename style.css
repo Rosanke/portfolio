@@ -10,13 +10,15 @@ body {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     color: #263647;
-    font-size: 20px;
+    font-size: 18px;
     
 }
+
 
 h1, h2, h3 {
     font-family: 'PT Serif', serif;
     color: #50667f;
+    padding: 0.25%;
 }
 /* Navigation*/
 
@@ -53,6 +55,9 @@ li {
     list-style-type: none;
     margin: 0 10px;
 }
+p {
+    padding: 0.25%;
+}
 
 /* Header */
 
@@ -65,13 +70,13 @@ header {
 
 }
 #woman1 {
-    width: 15%;
+    width: 10%;
     display: flex;
     margin: 0 20px;
 }
 
 #desk {
-    width: 25%;
+    width: 20%;
     display: flex;
     margin: 0 20px;
     
@@ -102,17 +107,115 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #eae8e2;
 }
 
 #profil {
     border-radius: 50%;
-    width: 20%;
+    width: 15%;
     padding: 20px;
 }
 .profiltext {
     width: 40%;
     text-align: center;
-    padding: 10px 0;
+    
+}
+
+/* Projects */
+
+.projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f1f1f1;
+
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 2%;
+}
+
+.project-img {
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+#websites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#translations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#my-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Skills */
+
+.skills {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eae8e2;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+
+i {
+    font-size: 30px;
+    padding: 2%;
+    display: inline;
+}
+
+.skill-items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Contact */
+
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eae8e2;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact-items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
