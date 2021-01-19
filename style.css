@@ -160,23 +160,29 @@ header {
     padding-bottom: 2%;
 }
 
-#websites {
+#websites, #translations, #my-blog {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
-#translations {
+#websites1, #translations1, #my-blog1 {
+    background-color: #d2d8af;
+    padding: 28% 0;
+    width: 82%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
-#my-blog {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#websites2, #translations2, #my-blog2 {
+    display:none;
+    cursor: pointer;
+    
 }
+
 
 /* Skills */
 

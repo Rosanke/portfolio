@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Fonts/fonts.css">
     <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <script language="javascript" type="text/javascript" src="script.js"></script>
     
 </head>
 <body>
@@ -46,19 +47,35 @@
     <h2>Projects</h2>
     <div class="grid-container">
         <div id="websites">
-            <h3>Websites</h3>
-            <img class="project-img" src="./assets/images/Testbild-540-260.png" alt="">
-            <p>Websites build with WordPress, fx Wortbuero</p>
+            <div id="websites1" onclick="showHide1('websites1', 'websites2')">
+                <h3>Websites</h3>
+            </div>
+            <div id="websites2" onclick="showHide2('websites2', 'websites1')">
+                <h3>Websites</h3>
+                <img class="project-img" src="./assets/images/Testbild-540-260.png" alt="">
+                <p>Websites build with WordPress, fx Wortbuero</p>
+            </div>
         </div>
+        
         <div id="translations">
-            <h3>Translations</h3>
-            <img class="project-img" src="./assets/images/Testbild-540-260.png" alt="">
-            <p>Books and stories I did translate form danish to german</p>
+            <div id="translations1" onclick="showHide1('translations1', 'translations2')">
+                <h3>Translations</h3>
+            </div>
+            <div id="translations2" onclick="showHide2('translations2', 'translations1')">
+                <h3>Translations</h3>
+                <img class="project-img" src="./assets/images/Testbild-540-260.png" alt="">
+                <p>Books and stories I did translate form danish to german</p>
+            </div>
         </div>
         <div id="my-blog">
-            <h3>My Blog</h3>
-            <img class="project-img"src="./assets/images/Testbild-540-260.png" alt="">
-            <p>My WordPress-Blog, where I write about scandinavian literature</p>
+            <div id="my-blog1" onclick="showHide1('my-blog1', 'my-blog2')">
+                <h3>My Blog</h3>
+            </div>
+            <div id="my-blog2" onclick="showHide2('my-blog2', 'my-blog1')">
+                <h3>My Blog</h3>
+                <img class="project-img"src="./assets/images/Testbild-540-260.png" alt="">
+                <p>My WordPress-Blog, where I write about scandinavian literature</p>
+            </div>
         </div> 
     </div>  
  </section>
