@@ -194,7 +194,7 @@ header {
     padding-bottom: 60px;    
 }
 
-i {
+i, .item-link {
     font-size: 30px;
     padding: 2%;
     display: inline;
