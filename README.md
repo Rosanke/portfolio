@@ -1,4 +1,6 @@
-# Portfolio Website Codecademy
+# Portfolio Website
+
+## Career Path Front-End Engineer Codecademy
 
 ## Project Objectives
 
@@ -12,3 +14,4 @@
 ### Images
 
 Fresh Folk Illustrations
+Unsplash
